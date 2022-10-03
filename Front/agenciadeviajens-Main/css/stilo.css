@@ -1,0 +1,138 @@
+ .navBar{
+     
+     background-color: rgb(224, 241, 145);
+     
+}
+.h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10vw;
+  }
+main{
+    margin-top: 0%;
+    text-align: center;
+}
+main h1{
+    font-size: 2rem;
+    border-radius: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main h2{
+     font-size: 2rem;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.paragrafo{
+    text-align: center;
+    font-size:2rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+
+    
+.p{
+    display: flex;
+    margin-left: 30px;
+}
+.contenier{
+    display: flex;
+    margin-left: 30px;
+    width: 100%;
+    margin-top: 5%;
+    gap: 50px;
+    list-style-type: square;
+    
+}
+.h5{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+}
+.titulodapagina{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    margin-top: 0%;
+    color:black;
+}
+.pac{
+    text-align: center;
+    font-size:2rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+     
+}
+.Bi{
+    gap: 50%;
+    margin-left: 30px;
+}
+.formulario{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 20%;
+    border-radius: 20%;
+}
+.cidades{
+    box-shadow: 0px;
+    margin-top: 10px;
+    border-radius: 10px;
+    justify-items: center;
+    margin-left: 30px;
+}
+.row{
+     list-style: none;
+}
+.Globe2{
+    margin-top: 10px;
+}
+.h2{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Form-label{
+    gap: 20px;
+    margin-left: 0px;
+    border-radius: 2rem;
+    width: 70%;
+    
+
+}
+.Hoteis{
+    display: flex;
+    border-radius: 20px;
+    gap: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    box-shadow: none;
+}
+.btn1{
+   gap: 20px;
+   border-radius: 10px;
+   background-color: rgb(224, 241, 145) ;
+   border: none;
+}
+.h4{
+    text-justify: center;
+}
+.pacotes{
+    display: flex;
+    border-radius: 10px;
+    gap: 20px;
+    margin-left: 20px;
+    
+}
+.footer{
+    margin-bottom:0%;
+}
+@media(max-widht:900px){
+   .navBar{
+    display: block;
+   }
+}
+@media(max-widht:850px){
+    .main{
+      width:95% ;
+      gap: 20px;
+    }
+}
